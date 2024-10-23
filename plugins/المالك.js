@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import fs from 'fs'
 import jimp from 'jimp'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-let wm = '◄⏤͟͟͞ES co na r  EL Pa aa ri ed '
+let wm = '◄⏤͟𝐒𝐎𝐍𝐄𝐊⚡𝐄𝐒𝐂𝐎𝐍𝐑 '
 
 
 let fakecontact = { 'key': { 'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': '𝐸𝐿-𝐷𝐸𝑺𝑂𝐾𝐸𝐼𝑌 𝐵𝑂𝑇' }, 'message': { 'contactMessage': { 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` } }, 'participant': '0@s.whatsapp.net' };
@@ -38,7 +38,7 @@ let faketext = {
 let fake = [fakegif, fakecontact, mkey, fakelocation, faketext]
 let vn = fake[Math.floor(Math.random() * fake.length)];
 
-let poster = ['https://qu.ax/zfuY.jpg', 'https://qu.ax/zfuY.jpg', 'https://qu.ax/zfuY.jpg', 'https://qu.ax/zfuY.jpg']
+let poster = ['https://qu.ax/eejU.jpg', 'https://qu.ax/eejU.jpg', 'https://qu.ax/eejU.jpg', 'https://qu.ax/eejU.jpg']
 let vn2 = poster[Math.floor(Math.random() * poster.length)];
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -47,7 +47,7 @@ let bjir = 'https://i.imgur.com/RbaRjrb.jpeg'
 let name = await conn.getName(who)
 
 let delay = time => new Promise(res => setTimeout(res, time))
-await conn.sendContact(m.chat, [[`201098829097` + `@s.whatsapp.net`, wm]], vn, {
+await conn.sendContact(m.chat, [[`201503742544` + `@s.whatsapp.net`, wm]], vn, {
  contextInfo: { 
  forwardingScore: 2023,
 isForwarded: false, 
