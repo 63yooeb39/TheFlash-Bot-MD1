@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
   await conn.sendMessage(m.chat, { react: { text: '✅', key: m.key } })
-  const zack = 'https://qu.ax/rovX.jpg'
+  const zack = 'https://qu.ax/eejU.jpg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `harley`}, body: { text: `˼👑˹↜ مـࢪحـبـا بـك/ي @${mentionId.split('@')[0]}
@@ -39,12 +39,12 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 ╯───────────────────⟢ـ
 > ˼🤖˹↜ الــبــوت↶
 ╮───────────────────⟢ـ
-┆⚙️ ↜اسـم الـبـوت↶﹝ESCONAR﹞
-┆🪄 ↜الـمـطـور ↶﹝ESCONAR﹞
+┆⚙️ ↜اسـم الـبـوت↶﹝𝐒𝐎𝐍𝐄𝐊⚡𝐄𝐒𝐂𝐎𝐍𝐑﹞
+┆🪄 ↜الـمـطـور ↶﹝𝐒𝐎𝐍𝐄𝐊⚡𝐄𝐒𝐂𝐎𝐍𝐑﹞
 ┆📌 ↜الـتـشـغـيـل ↶﹝${uptime}﹞
 ┆🔖 ↜الــمــســتـخـدمـيـن ↶﹝${rtotalreg}﹞
 ╯───────────────────⟢ـ
-> ©›Es Co Naaa r ، iL P aaa reD`,subtitle: "ESCONAR$BOT",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> ©›𝐒𝐎𝐍𝐄𝐊⚡𝐄𝐒𝐂𝐎𝐍𝐑`,subtitle: "ESCONAR$BOT",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: zack } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
                         isForwarded: false,
